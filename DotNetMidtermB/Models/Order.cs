@@ -25,7 +25,7 @@ namespace DotNetMidtermB.Models
         [StringLength(50)]
         [Display(Name = "Last Name")]
         public string LastName { get; set; }
-
+        [Display(Name = "Size")]
         public virtual Size Size { get; set; }
     }
 }
